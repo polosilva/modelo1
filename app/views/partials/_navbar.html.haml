@@ -1,0 +1,14 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{:href => "#"} Some Store
+      .nav-collapse
+        %ul.nav
+          %li= link_to "Browse Products", root_path
+          %li= link_to "Price List"
+          %li= link_to "Contact Us"
+          %li= link_to "Cart"
