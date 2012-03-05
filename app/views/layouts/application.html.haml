@@ -9,6 +9,8 @@
     = csrf_meta_tags
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
   %body
+    %p.notice= notice
+    %p.alert= alert
     = render 'partials/navbar'
     %td
       %button.btn.btn-primary{:href => "#"} Primary
